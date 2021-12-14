@@ -1,0 +1,7 @@
+El código fuente final es diffie_hellman.cpp. Es el que abría que comentar en la memoria
+
+El segundo archivo diffie_hellmanB.cpp, se utiliza simplemente para que en las
+pruebas podamos mostrar un título y algunas frases diferentes, pero las funciones y cálculos
+son iguales en ambos casos.
+
+Te adjunto también algunas capturas de pantallas de tres ejecuciones.
