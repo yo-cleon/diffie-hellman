@@ -31,10 +31,10 @@ int main(int argc, char** argv){
     
     X = mod_exp(r, x, p); //Generamos el número a intercambiar con la otra parte --> X = r^x mod p
     
-	printf("Send the number X (public key): %d to your partner.\n", (int) X);
+	printf("El Cliente envía el numero X (clave publica) al Cliente: %d\n", X);
     
 	// Recogemos la clave pública generado por la otra parte
-    printf("Enter the Y number that your partner has sent you: "); 
+    printf("Introduce el numero Y recibido del Cliente: "); 
     scanf("%d", &Y);
     
     /*
@@ -45,7 +45,7 @@ int main(int argc, char** argv){
 	
 	*/
 	K = mod_exp(Y, x, p);
-    printf("La llave común K es: %d", K);
+    printf("La llave comun K es: %d", K);
     
     printf("\n");
     system("pause");
